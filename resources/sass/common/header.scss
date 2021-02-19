@@ -1,0 +1,24 @@
+header {
+    height: 4em;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+    .site-logo {
+        border-radius: 50%;
+        margin-right: 2em;
+
+        img {
+            border-radius: 50%;
+            height: 3em;
+            width: 3em;
+        }
+    }
+
+    > div {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+}

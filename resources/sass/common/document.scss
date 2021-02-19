@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&display=swap&subset=latin-ext');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    color: $primary_color;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
